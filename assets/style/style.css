@@ -191,14 +191,16 @@ body img {
         height: auto;
     }
 
+
+    .container .banner {
+        display: none; /* Oculta o elemento */
+    }
+    
     /* Ajuste a posição vertical dos elementos conforme necessário */
     .container .texts {
         top: 20px;
     }
-
-    .container .banner{
-        display: none;
-    }
+    
 
     .container .loginE h3 {
         top: 270px;
