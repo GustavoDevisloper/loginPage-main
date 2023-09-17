@@ -194,8 +194,13 @@ body img {
 
     .container .banner {
         display: none; /* Oculta o elemento */
+        display: none; /* Oculta o elemento */
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
     }
-    
+
     /* Ajuste a posição vertical dos elementos conforme necessário */
     .container .texts {
         top: 20px;
