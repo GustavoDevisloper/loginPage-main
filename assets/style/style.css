@@ -196,6 +196,10 @@ body img {
         top: 20px;
     }
 
+    .container .banner{
+        display: none;
+    }
+
     .container .loginE h3 {
         top: 270px;
     }
