@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&family=Poppins:ital,wght@1,500&display=swap');
+
+body {
+    overflow: hidden;
+}
+
+body img {
+    position: absolute;
+    left: 5px;
+    top: 10px;
+    height: 100px;
+}
+
+.container .texts {
+    position: absolute;
+    top: 80px;
+    left: 170px;
+}
+
+.container .texts h1 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .texts h3 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.container .loginE h3 {
+    position: absolute;
+    left: 170px;
+    top: 270px;
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .loginE #email {
+    position: absolute;
+    top: 310px;
+    left: 200px;
+    width: 344px;
+}
+
+.container .loginE svg {
+    position: absolute;
+    top: 310px;
+    left: 170px;
+}
+
+.container .loginE .barE {
+    position: absolute;
+    top: 345px;
+}
+
+.container .loginP h3 {
+    position: absolute;
+    left: 170px;
+    top: 360px;
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .loginP svg {
+    position: absolute;
+    left: 170px;
+    top: 405px;
+}
+
+.container .loginP #password {
+    position: absolute;
+    top: 405px;
+    left: 200px;
+    width: 344px;
+}
+
+.container .loginP .barP {
+    position: absolute;
+    top: 440px;
+    left: 170px;
+}
+
+.container .loginP .see {
+    position: absolute;
+    left: 584px;
+}
+
+.container .loginP #checkbox {
+    position: absolute;
+    top: 460px;
+    left: 165px;
+    width: 20px;
+    height: 20px;
+    color: #000;
+}
+
+.container .loginP h4 {
+    position: absolute;
+    top: 444px;
+    left: 200px;
+    color: #000;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.container .loginP .Fp {
+    position: absolute;
+    top: 453px;
+    left: 470px;
+}
+
+.container .borderL {
+    position: absolute;
+    top: 520px;
+    left: 160px;
+    width: 429px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container .borderL h1 {
+    position: absolute;
+    left: 190px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .borderL h3 {
+    position: absolute;
+    top: 50px;
+}
+
+.container .borderL svg {
+    position: absolute;
+    top: 100px;
+    left: 125px;
+}
+
+.container .banner {
+    position: absolute;
+    left: 770px;
+    width: 535px;
+    height: 659px;
+    flex-shrink: 0;
+    border-radius: 15px;
+    background: #000842;
+}
+
+.container .banner img {
+    height: 521px;
+}
+
+.show-password-icon {
+    cursor: pointer;
+}
+
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+@media screen and (max-width: 767px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
+    .container .banner {
+        display: none; /* Oculta o elemento */
+    }
+
+    /* Ajuste a posição vertical dos elementos conforme necessário */
+    .container .texts {
+        top: 20px;
+    }
+
+    .container .loginE h3,
+    .container .loginP h3 {
+        top: 50px;
+    }
+
+    .container .loginE #email,
+    .container .loginP #password {
+        width: 100%; /* Preencher a largura do contêiner */
+    }
+}
