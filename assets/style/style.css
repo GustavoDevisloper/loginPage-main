@@ -201,7 +201,7 @@ body img {
 
     .container .loginE h3,
     .container .loginP h3 {
-        top: 50px;
+        top: 20px; /* Posição desejada para o texto h3 em dispositivos móveis */
     }
 
     .container .loginE #email,
