@@ -182,10 +182,17 @@ body img {
 
 /* Estilos para telas menores (por exemplo, dispositivos móveis) */
 @media screen and (max-width: 767px) {
-    .container .banner {
-        display: none; /* Oculta o elemento */
+    body {
+        overflow: hidden; /* Impede que a tela seja rolada */
     }
-}
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: auto;
+    }
+
 
     .container .banner {
         display: none; /* Oculta o elemento */
