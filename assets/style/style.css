@@ -181,10 +181,8 @@ body img {
 }
 
 /* Estilos para telas menores (por exemplo, dispositivos móveis) */
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
 @media screen and (max-width: 767px) {
-    body {
-        overflow: hidden; /* Impede que a tela seja rolada */
-    }
     .container {
         display: flex;
         flex-direction: column;
@@ -193,19 +191,12 @@ body img {
         height: auto;
     }
 
-
-    .container .banner {
-        display: none; /* Oculta o elemento */
-    }
-
     /* Ajuste a posição vertical dos elementos conforme necessário */
     .container .texts {
         top: 20px;
     }
 
-
-
-    .container .loginE h3{
+    .container .loginE h3 {
         top: 270px;
     }
 
