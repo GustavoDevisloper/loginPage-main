@@ -182,6 +182,7 @@ body img {
 
 /* Estilos para telas menores (por exemplo, dispositivos móveis) */
 /* Estilos para telas menores (por exemplo, dispositivos móveis) */
+/* Estilos para telas menores (por exemplo, dispositivos móveis) */
 @media screen and (max-width: 767px) {
     .container {
         display: flex;
@@ -191,10 +192,8 @@ body img {
         height: auto;
     }
 
-
+    /* Oculta o banner ajustando o tamanho para 0 */
     .container .banner {
-        display: none; /* Oculta o elemento */
-        display: none; /* Oculta o elemento */
         width: 0;
         height: 0;
         padding: 0;
@@ -205,7 +204,6 @@ body img {
     .container .texts {
         top: 20px;
     }
-    
 
     .container .loginE h3 {
         top: 270px;
