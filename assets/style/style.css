@@ -180,9 +180,131 @@ body img {
     cursor: pointer;
 }
 
-/* Estilos para telas menores (por exemplo, dispositivos móveis) */
-/* Estilos para telas menores (por exemplo, dispositivos móveis) */
-/* Estilos para telas menores (por exemplo, dispositivos móveis) */
+/*Registro*/
+
+
+.container .registerE h3 {
+    position: absolute;
+    top: 235px;
+    left: 170px;
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.container .registerE #email {
+    position: absolute;
+    top: 275px;
+    left: 200px;
+    width: 344px;
+}
+
+.container .registerE svg {
+    position: absolute;
+    top: 275px;
+    left: 170px;
+}
+
+.container .registerE .barE {
+    position: absolute;
+    top: 310px;
+}
+
+.container .userE{
+    position: absolute;
+    top: 315px;
+    left: 169px;
+}
+
+.container .userE h3{
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container .userE .barE2{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+}
+
+.container .passwordE{
+    position: absolute;
+    top: 405px;
+    left: 167px;
+}
+.container .passwordE h3{
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container .passwordE .barP{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+}
+
+.container .passwordE .see{
+    position: absolute;
+    left: 400px;
+}
+
+.container .passwordConfirm{
+    position: absolute;
+    top: 486px;
+    left: 167px;
+}
+.container .passwordConfirm h3{
+    color: #999;
+    font-family: Poppins;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.container .passwordConfirm .barP2{
+    position: absolute;
+    top: 82px;
+    left: 0px;
+}
+.container .passwordConfirm .see2{
+    position: absolute;
+    left: 400px;
+}
+
+.container .borderR {
+    position: absolute;
+    top: 600px;
+    left: 160px;
+    width: 429px;
+    height: 53px;
+    flex-shrink: 0;
+    border-radius: 32px;
+    background: #0C21C1;
+    box-shadow: 0px 4px 26px 0px rgba(0, 0, 0, 0.25);
+}
+
+.container .borderR h1 {
+    position: absolute;
+    left: 190px;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+
+
 @media screen and (max-width: 767px) {
     .container {
         display: flex;
