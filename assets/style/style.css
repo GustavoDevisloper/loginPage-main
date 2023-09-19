@@ -255,6 +255,7 @@ body img {
 .container .passwordE .see{
     position: absolute;
     left: 400px;
+    top: 47px;
 }
 
 .container .passwordConfirm{
@@ -301,6 +302,46 @@ body img {
     font-style: normal;
     font-weight: 500;
     line-height: normal;
+}
+
+.password-input {
+    position: relative;
+    top: -20px;
+    left: 20px;
+}
+
+
+.password-strength-circle {
+    position: absolute;
+    left: 180px;
+    top: -10px; /* Afastar o círculo um pouco para cima */
+    width: 25px; /* Tamanho do círculo */
+    height: 25px; /* Tamanho do círculo */
+    border-radius: 50%; /* Transforma em um círculo */
+    border: 2px solid transparent; /* Adiciona uma borda */
+    border-top: 2px solid #FF0000; /* Define a cor da borda superior (incompleta, senha fraca) */
+    transform: rotate(0deg); /* Inicializa a transformação sem preencher o círculo */
+    transform-origin: center; /* Define o ponto de origem da transformação no centro do círculo */
+    display: none; /* Oculta o círculo inicialmente */
+    animation: rotate-circle 2s linear infinite; /* Adiciona a animação de rotação contínua */
+    transition: border-top-color 0.5s ease, top 0.5s ease; /* Adiciona transições suaves */
+}
+
+.password-strength-circle.medium {
+    border-top-color: #FFFF00; /* Define a cor da borda superior (senha média) */
+}
+
+.password-strength-circle.strong {
+    border-top-color: #00FF00; /* Define a cor da borda superior (senha forte) */
+}
+
+@keyframes rotate-circle {
+    from {
+        transform: rotate(0deg); /* Inicializa a rotação */
+    }
+    to {
+        transform: rotate(360deg); /* Rotação completa */
+    }
 }
 
 
